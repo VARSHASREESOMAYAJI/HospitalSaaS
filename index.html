@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shine Hospital | Advanced Skin, Hair & Laser Treatments</title>
+  <meta name="description"
+    content="Expert Dermatology & Psychiatric Care in Anantapur. Book an appointment or order medicines online." />
+  <link rel="stylesheet" href="/src/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Ionicons for icons to make it modern and clean -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+  <!-- Top Thin Strip -->
+  <div class="top-strip">
+    <div class="container top-strip-content">
+      <div class="top-strip-left">
+        <ion-icon name="call-outline"></ion-icon> 08554-236466 | 9100803079
+      </div>
+      <div class="top-strip-right">
+        <div class="working-hours"><ion-icon name="time-outline"></ion-icon> Mon-Sat: 10AM - 8PM</div>
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme" title="Toggle Dark/Light Mode">
+          <ion-icon name="moon-outline"></ion-icon>
+        </button>
+        <a href="https://wa.me/919100803079" target="_blank" class="whatsapp-icon"><ion-icon
+            name="logo-whatsapp"></ion-icon></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="container header-content">
+      <a href="/" class="logo router-link">
+        <span class="logo-highlight">Shine</span> Hospital
+      </a>
+
+      <!-- Desktop Menu -->
+      <nav class="desktop-nav">
+        <a href="/" class="router-link">Home</a>
+        <a href="/about" class="router-link">About</a>
+        <a href="/services" class="router-link">Services</a>
+        <a href="/doctors" class="router-link">Doctors</a>
+        <a href="/book-appointment" class="router-link btn-book-nav">Book Appointment</a>
+        <a href="/medicine-delivery" class="router-link">Medicine Delivery</a>
+        <a href="/contact" class="router-link">Contact</a>
+      </nav>
+
+      <!-- Mobile Menu Toggle -->
+      <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle Menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobile-drawer" class="mobile-drawer">
+    <button id="close-menu-btn" class="close-menu-btn"><ion-icon name="close-outline"></ion-icon></button>
+    <nav class="mobile-nav">
+      <a href="/" class="router-link">Home</a>
+      <a href="/about" class="router-link">About</a>
+      <a href="/services" class="router-link">Services</a>
+      <a href="/doctors" class="router-link">Doctors</a>
+      <a href="/book-appointment" class="router-link">Book Appointment</a>
+      <a href="/medicine-delivery" class="router-link">Medicine Delivery</a>
+      <a href="/contact" class="router-link">Contact</a>
+    </nav>
+  </div>
+
+  <!-- Main Content Array -->
+  <main id="app">
+    <!-- Pages will be rendered here via JS -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>Shine Hospital</h3>
+        <p>Advance Skin, Hair & Laser Research Centre.</p>
+        <p>Expert Dermatology & Psychiatric Care under one roof in Anantapur.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="/" class="router-link">Home</a></li>
+          <li><a href="/about" class="router-link">About Us</a></li>
+          <li><a href="/doctors" class="router-link">Our Doctors</a></li>
+          <li><a href="/book-appointment" class="router-link">Book Appointment</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Dermatology Services</h3>
+        <ul>
+          <li><a href="/services">Laser Hair Removal</a></li>
+          <li><a href="/services">Acne Treatment</a></li>
+          <li><a href="/services">Skin Rejuvenation</a></li>
+          <li><a href="/services">Hair Fall Treatment</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Contact Info</h3>
+        <p><ion-icon name="location-outline"></ion-icon> Ramnagar, Anantapur, Andhra Pradesh</p>
+        <p><ion-icon name="call-outline"></ion-icon> 08554-236466</p>
+        <p><ion-icon name="call-outline"></ion-icon> +91 9100803079</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-content">
+        <p>&copy; 2026 Shine Hospital. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Bottom Sticky Bar -->
+  <div class="mobile-bottom-bar">
+    <a href="tel:08554236466" class="bottom-bar-item">
+      <ion-icon name="call"></ion-icon>
+      <span>Call</span>
+    </a>
+    <a href="https://wa.me/919100803079" target="_blank" class="bottom-bar-item whatsapp-btn">
+      <ion-icon name="logo-whatsapp"></ion-icon>
+      <span>WhatsApp</span>
+    </a>
+    <a href="/book-appointment" class="bottom-bar-item book-btn router-link">
+      <ion-icon name="calendar"></ion-icon>
+      <span>Book</span>
+    </a>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
